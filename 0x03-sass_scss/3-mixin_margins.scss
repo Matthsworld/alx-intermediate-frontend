@@ -1,0 +1,16 @@
+// Define the margin mixin
+@mixin margin-sides($left, $right) {
+    margin-left: $left;
+    margin-right: $right;
+  }
+  
+  // Use the mixin for the body tag
+  body {
+    @include margin-sides(10px, 10px);
+  }
+  
+  // Use the mixin for the div tag
+  div {
+    @include margin-sides(15px, 15px);
+  }
+  
