@@ -1,0 +1,9 @@
+$text-color: #3D3D3D;  // Define the Sass variable
+
+body {
+  color: $text-color;  // Use the variable for the body text color
+}
+
+p {
+  color: $text-color;  // Use the variable for the paragraph text color
+}
